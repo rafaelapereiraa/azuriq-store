@@ -35,10 +35,9 @@ O simulador oferece 10% de desconto para compras a partir de R$ 150,00.
 
 ## 5. Captura de tela
 
-![Parte superior da Azuriq Store](parte-superior.png)
+![Parte superior da Azuriq Store](azuriq-store.png%20(2).png)
 
-![Parte inferior da Azuriq Store](parte-inferior.png)
-
+![Parte inferior da Azuriq Store](azuriq-store.png.png)
 ## 6. Testes realizados
 
 - Teste com os três produtos selecionados.
