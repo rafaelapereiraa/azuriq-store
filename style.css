@@ -1,0 +1,139 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F4F6F8;
+    color: #0F172A;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #CBD5E1;
+}
+
+/* Conteúdo principal */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Apresentação */
+.apresentacao {
+    text-align: center;
+    padding: 30px 15px;
+}
+
+.apresentacao h2,
+.produtos h2,
+.instrucoes h2 {
+    color: #526B83;
+    margin-bottom: 15px;
+}
+
+.apresentacao p {
+    line-height: 1.6;
+}
+
+/* Produtos */
+.produtos {
+    margin-top: 25px;
+}
+
+.produtos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.produto {
+    background-color: white;
+    padding: 22px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    border-left: 5px solid #526B83;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.produto h3 {
+    margin-bottom: 8px;
+}
+
+.produto p {
+    color: #64748B;
+    margin-bottom: 12px;
+}
+
+.produto strong {
+    color: #526B83;
+    font-size: 18px;
+}
+
+/* Instruções */
+.instrucoes {
+    background-color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 30px;
+    border-radius: 12px;
+}
+
+.instrucoes p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+button {
+    background-color: #526B83;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0F172A;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0F172A;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    margin-top: 40px;
+    line-height: 1.8;
+}
+
+/* Adaptação para celulares */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    main {
+        width: 92%;
+    }
+}
